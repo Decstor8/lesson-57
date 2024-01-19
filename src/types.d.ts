@@ -1,14 +1,13 @@
-export interface Dish {
+export interface User {
     id: string;
     name: string;
-    description: string;
-    image: string;
-    price: number;
+    email: string;
+    isActive: boolean;
+    category: string;
 }
 
 export interface DishMutation {
     name: string;
-    description: string;
-    image: string;
-    price: string;
+    email: string;
+    isActive: boolean;
 }
